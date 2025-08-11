@@ -34,7 +34,6 @@ Dibangun menggunakan **Laravel 12**, **Livewire**, **Filament**, **TailwindCSS**
 ## 📦 Instalasi
 
 ### 1. Clone Repository
-```bash
 git clone https://github.com/muhammad-isroq/panggang-cerita.git
 cd panggang-cerita
 
