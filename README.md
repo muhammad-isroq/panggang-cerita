@@ -1,61 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🍞 Panggang Cerita
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Panggang Cerita** adalah aplikasi landing page untuk toko roti yang dilengkapi dengan **halaman admin** berbasis CMS, sehingga pemilik toko dapat dengan mudah mengunggah dan mengelola konten seperti produk, promo, dan cerita toko.  
+Dibangun menggunakan **Laravel 12**, **Livewire**, **Filament**, **TailwindCSS**, **DaisyUI**, dan **Vite** untuk memberikan pengalaman modern, cepat, dan responsif.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✨ Fitur Utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Landing Page Interaktif**  
+  Menampilkan produk roti, promo, dan informasi toko dengan desain menarik.
+- **Halaman Admin (CMS)**  
+  Mengelola konten tanpa coding melalui **Filament Admin Panel**.
+- **Livewire Components**  
+  Interaksi tanpa reload halaman.
+- **Desain Modern**  
+  Menggunakan **TailwindCSS** & **DaisyUI**.
+- **Build Cepat**  
+  Menggunakan **Vite** untuk pengembangan dan build aset.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🛠️ Teknologi yang Digunakan
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **[Laravel 12](https://laravel.com/)**
+- **[Livewire](https://livewire.laravel.com/)**
+- **[Filament](https://filamentphp.com/)**
+- **[TailwindCSS](https://tailwindcss.com/)**
+- **[DaisyUI](https://daisyui.com/)**
+- **[Vite](https://vitejs.dev/)**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📦 Instalasi
 
-## Laravel Sponsors
+### 1. Clone Repository
+```bash
+git clone https://github.com/muhammad-isroq/panggang-cerita.git
+cd panggang-cerita
+2. Install Dependensi PHP
+bash
+Salin
+Edit
+composer install
+3. Install Dependensi Node.js
+bash
+Salin
+Edit
+npm install
+4. Konfigurasi Environment
+bash
+Salin
+Edit
+cp .env.example .env
+Lalu edit file .env untuk menyesuaikan koneksi database dan konfigurasi lainnya.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+5. Generate Key Aplikasi
+bash
+Salin
+Edit
+php artisan key:generate
+6. Migrasi & Seeder Database
+bash
+Salin
+Edit
+php artisan migrate --seed
+7. Jalankan Vite
+bash
+Salin
+Edit
+npm run dev
+8. Jalankan Server Laravel
+bash
+Salin
+Edit
+php artisan serve
+Akses aplikasi di http://localhost:8000.
 
-### Premium Partners
+🔑 Akun Admin (Default Seeder)
+Email: isroq@admin.com
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Password: isroq2510
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+git clone https://github.com/muhammad-isroq/panggang-cerita.git
+cd panggang-cerita
