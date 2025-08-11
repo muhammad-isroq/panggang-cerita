@@ -37,50 +37,50 @@ Dibangun menggunakan **Laravel 12**, **Livewire**, **Filament**, **TailwindCSS**
 ```bash
 git clone https://github.com/muhammad-isroq/panggang-cerita.git
 cd panggang-cerita
-2. Install Dependensi PHP
+
+### **2. Install Dependensi PHP**
 bash
 Salin
 Edit
 composer install
-3. Install Dependensi Node.js
+
+### **3. Install Dependensi Node.js**
 bash
 Salin
 Edit
 npm install
-4. Konfigurasi Environment
+### **4. Konfigurasi Environment**
 bash
 Salin
 Edit
 cp .env.example .env
 Lalu edit file .env untuk menyesuaikan koneksi database dan konfigurasi lainnya.
 
-5. Generate Key Aplikasi
+### **5. Generate Key Aplikasi**
 bash
 Salin
 Edit
 php artisan key:generate
-6. Migrasi & Seeder Database
+### **6. Migrasi & Seeder Database**
 bash
 Salin
 Edit
 php artisan migrate --seed
-7. Jalankan Vite
+### **7. Jalankan Vite**
 bash
 Salin
 Edit
 npm run dev
-8. Jalankan Server Laravel
+
+### **8. Jalankan Server Laravel**
 bash
 Salin
 Edit
 php artisan serve
 Akses aplikasi di http://localhost:8000.
 
-🔑 Akun Admin (Default Seeder)
+🔑 Akun Admin 
 Email: isroq@admin.com
 
 Password: isroq2510
 
-
-git clone https://github.com/muhammad-isroq/panggang-cerita.git
-cd panggang-cerita
